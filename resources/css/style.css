@@ -42,6 +42,7 @@ main {
     position: absolute;
     left: 0;
     right: 0;
+    max-width: 1200px;
 }
 
 #mission {
@@ -74,7 +75,27 @@ main {
     margin: auto;
 }
 
+#featured-tea {
+    margin: 50px auto;
+    max-width: 1000px;
+}
 
+#featured-tea h4 {
+    margin-bottom: 10px;
+}
 
+.gallery {
+    display: flex;
+    flex-basis: 1000px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0;
+}
 
+.gallery figure {
+    max-width: 250px;
+}
 
+.gallery img {
+    width: 100%;
+}
