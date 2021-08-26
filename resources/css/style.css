@@ -99,3 +99,30 @@ main {
 .gallery img {
     width: 100%;
 }
+
+#locations {
+    background-image: url("../images/img-locations-background.jpg");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations h2 {
+    margin-bottom: 15px;
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+}
+
+.location-container div {
+    margin: 15px 40px;
+    width: 300px;
+    background-color: black;
+}
+
+.location-container div p {
+    margin: 40px 0;
+}
