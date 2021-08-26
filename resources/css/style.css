@@ -38,10 +38,7 @@ body {
 }
 
 main {
-    margin: 60px auto 0 auto;
-    position: absolute;
-    left: 0;
-    right: 0;
+    margin: 0 auto;
     max-width: 1200px;
 }
 
@@ -121,8 +118,17 @@ main {
     margin: 15px 40px;
     width: 300px;
     background-color: black;
+    flex-shrink: 1;
 }
 
 .location-container div p {
     margin: 40px 0;
+}
+
+footer section {
+    height: 200px;
+}
+
+footer h4 {
+    text-align: left;
 }
