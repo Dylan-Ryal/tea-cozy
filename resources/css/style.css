@@ -10,11 +10,14 @@ body {
 .header {
     height: 69px;
     width: 100%;
+    top: 0;
     border-bottom: 1px solid seashell;
     position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
+    z-index: 1;
 }
 
 .header img {
@@ -34,11 +37,14 @@ body {
     color: seashell;
 }
 
-#mission {
-    margin: 70px auto 0 auto;
+main {
+    margin: 60px auto 0 auto;
     position: absolute;
     left: 0;
     right: 0;
+}
+
+#mission {
     background-image: url("../images/img-mission-background.jpg");
     display: flex;
     flex-basis: 1200px;
@@ -48,7 +54,7 @@ body {
     background-position: center;
 }
 
-#mission div {
+.mission-container {
     width: 100%;
     background-color: black;
     display: flex;
@@ -58,13 +64,13 @@ body {
     align-items: stretch;
 }
 
-#mission div h2 {
+.mission-container h2 {
     flex-shrink: 1;
     margin: auto;
     margin-bottom: 20px;
 }
 
-#mission div h4 {
+.mission-container h4 {
     margin: auto;
 }
 
